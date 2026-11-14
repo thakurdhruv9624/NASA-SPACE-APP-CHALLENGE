@@ -12,6 +12,10 @@ This project uses a modern decoupled full-stack architecture:
 * **Backend:** Python, FastAPI, Uvicorn (Deployed on **Render**)
 * **Version Control:** Git & GitHub
 
+## 🏆 Certificate of Achievement
+![Galactic Problem Solver Certificate]
+
+
 ---
 
 ## 🌐 Live Links
