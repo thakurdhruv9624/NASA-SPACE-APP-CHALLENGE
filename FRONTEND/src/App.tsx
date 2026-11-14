@@ -46,7 +46,7 @@ export function App() {
     });
 
     try {
-      const response = await fetch(`http://127.0.0.1:8000/api/trend?${params}`);
+      const response = await fetch(`https://nasa-space-app-challenge-1.onrender.com/api/trend?${params}`);
       const payload: unknown = await response.json();
       if (!response.ok) {
         const detail = typeof payload === "object" && payload !== null && "detail" in payload
